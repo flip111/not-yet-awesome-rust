@@ -92,6 +92,11 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
 * A concurrent `HashMap`-like structure has not been fully developed yet.
     * [`concurrent-hashmap`](https://crates.io/crates/concurrent-hashmap) is still missing methods like `iter_mut`, `entry`, `drain`, and `clear` from the original `HashMap` interface.
     * [`evmap`](https://crates.io/crates/evmap) is a different design around eventual consistency, and so departs from the normal `HashMap` interface.
+    
+## Displays and GUI's
+
+* Bindings to [LittlevGL](https://github.com/littlevgl/lvgl), an Open-source Embedded GUI Library written in C.
+* Bindings to [GuiLite](https://github.com/idea4good/GuiLite), a small GUI library of 5000 lines of C++ code that runs on all platforms, including MCU's.
 
 ## Dynamic programming analysis/instrumentation
 
